@@ -31,15 +31,15 @@
         Console.WriteLine();
 
         //extra challenge
-        if (area >= 0 && area <= 250)
+        if (area <= 250)
         {
             Console.WriteLine("This room is small.");
         }
-        if (area >= 251 && area < 651)
+        else if (area > 250 && area < 650)
         {
             Console.WriteLine("This room is medium.");
         }
-        if (area > 651)
+        else if (area >= 650)
         {
             Console.WriteLine("This room is large.");
         }
